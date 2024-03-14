@@ -1,0 +1,49 @@
+/* GridView.css */
+
+/* Add custom styles to the container */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Style the table */
+.table {
+  margin-top: 20px;
+}
+
+/* Style the table headings */
+.table thead th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the table cells */
+.table tbody td {
+  vertical-align: middle;
+}
+
+/* Style the edit and delete buttons */
+.btn-edit {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Hover effect for buttons */
+.btn-edit:hover,
+.btn-delete:hover {
+  opacity: 0.8;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,31 @@
+/* Style for the ToastContainer */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* Style for the Toast message */
+.Toastify__toast {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* Success Toast */
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+/* Error Toast */
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
+
+/* Info Toast */
+.Toastify__toast--info {
+  background-color: #17a2b8;
+}
+
+/* Warning Toast */
+.Toastify__toast--warning {
+  background-color: #ffc107;
+}
